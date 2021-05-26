@@ -1,0 +1,3 @@
+Select * from ret_emp union select * from emp2; 
+Select * from ret_emp intersect select * from emp2; 
+Select * from emp2 MINUS select * from RET_EMP;
