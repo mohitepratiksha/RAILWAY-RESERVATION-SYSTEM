@@ -1,5 +1,10 @@
-create table EMP2(ENAME varchar2(15),HIREDDATE date,SAL number(10,2)); insert into EMP2 values('shyaaam','10-nov-1990',50000);
-insert into emp2 values('ram','10-dec-1990',50000); insert into emp2 values('mohan','10-nov-1990',40000); insert into emp2 values('shivesh','10-nov-1991',20000);
+create table EMP2(ENAME varchar2(15),HIREDDATE date,SAL number(10,2)); 
+insert into EMP2 values('shyaaam','10-nov-1990',50000);
+insert into emp2 values('ram','10-dec-1990',50000); 
+insert into emp2 values('mohan','10-nov-1990',40000); 
+insert into emp2 values('shivesh','10-nov-1991',20000);
 
-create table ret_emp(ENAME varchar2(15),HIREDDATE date,SAL number(10,2)); insert into ret_emp values('SHIVANYA','10-nov-1992',60000);
-insert into ret_emp values('SHIYA','10-jan-1992',70000); insert into ret_emp values('SHIY','10-jan-1993',80000); 
+create table ret_emp(ENAME varchar2(15),HIREDDATE date,SAL number(10,2)); 
+insert into ret_emp values('SHIVANYA','10-nov-1992',60000);
+insert into ret_emp values('SHIYA','10-jan-1992',70000); 
+insert into ret_emp values('SHIY','10-jan-1993',80000); 
